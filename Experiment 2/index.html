@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Westbridge Institute</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bg-image {
+      position: relative;
+      height: 100vh;
+    }
+    .mask {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgb(0, 0, 0);
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Westbridge Institute</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Admission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All Courses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Department
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Information Technology</a></li>
+              <li><a class="dropdown-item" href="#">Computer Science</a></li>
+              <li><a class="dropdown-item" href="#">Electronics</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search Courses" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div
+      id="intro-example"
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('college.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+      "
+    >
+    <div class="mask" style="background: rgba(0, 0, 0, 0.2);">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-white text-center">
+          <h1 class="mb-3">WELCOME TO Westbridge Institute</h1>
+          <h5 class="mb-4">Empowering Minds, Shaping Futures</h5>
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+            role="button"
+            rel="nofollow"
+            target="_blank"
+          >ALL COURSES</a>
+          <a
+            class="btn btn-outline-light btn-lg m-2"
+            href="https://mdbootstrap.com/docs/standard/"
+            target="_blank"
+            role="button"
+          >READ MORE</a>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+    <section class="container my-5">
+      <h2 class="text-center mb-4">Our Programs</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="it.jpeg" class="card-img-top" alt="Program 1">
+            <div class="card-body">
+              <h5 class="card-title">Information Technology</h5>
+              <p class="card-text">A comprehensive program designed to equip students with the skills and knowledge needed for a successful career in technology.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="cs.png" class="card-img-top" alt="Program 2">
+            <div class="card-body">
+              <h5 class="card-title">Computer science</h5>
+              <p class="card-text">An advanced program for those seeking to deepen their expertise in their chosen field of study.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card">
+            <img src="electronics.jpeg" class="card-img-top" alt="Program 3">
+            <div class="card-body">
+              <h5 class="card-title">Electronics</h5>
+              <p class="card-text">Short-term programs that provide practical skills and knowledge for specific careers.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Why Choose Us?</h2>
+        <div class="row text-center">
+          <div class="col-md-4 mb-4">
+            <h3>Experienced Faculty</h3>
+            <p>Our faculty members are industry experts with years of experience.</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h3>Modern Facilities</h3>
+            <p>We offer state-of-the-art facilities and resources for our students.</p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h3>Global Opportunities</h3>
+            <p>We provide opportunities for international exposure and collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Westbridge Institute. All Rights Reserved.</p>
+      <p> Chembur, Mumbai, India | 
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@westbridge.edu&su=Inquiry&body=Hello%20Westbridge%20Institute" class="text-white" target="_blank">Email Us</a>
+      </p>
+    </footer>
+    
+    
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
